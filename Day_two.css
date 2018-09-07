@@ -1,0 +1,102 @@
+
+				         p.c1{color:red;
+					       text-align:center;
+					    }
+				   
+				        p.c2{color:green;
+					       text-align:left;
+					    }
+				   
+				        p.c3{color:orange;
+					       text-align:right;
+					    }
+						
+	/*		we dnt need to write		*/
+	                   img.i1{
+						    border-radius :85%;
+							height:100px;
+							width:100px;
+						    opacity: 0.8;
+							margin: 0 auto;
+							display: block;
+							opacity: 1;
+							 transition: 2s;
+						}
+						
+						img.i1:hover{
+						     border-radius :0%;
+							 opacity: 1;
+							 transition: 2s;
+							
+						}
+						
+						img.i2{
+						    border-radius :80%;
+							height:100px;width:100px;
+						    opacity: 0.4;
+							margin: 0 100;
+							display:block;
+						}
+						
+						p#x2{
+						    color:yellow;
+							text-align:center;
+							}
+							
+					    div.inner{
+						    
+							background-color: lightgrey;
+							width:300px;
+							height: 100px;
+							//border: 5px dashed green;
+							//padding: 25px;
+							//margin: 25px;
+							//overflow: scroll;
+							position: relative;
+							float: left;
+							
+						    }                    
+							
+							div.outer{
+							
+							background-color: lightgrey;
+							
+							//border: 5px dashed green;
+							//padding: 25px;
+							//margin: 25px;
+							float: left;
+							position: relative;
+							
+							}
+							
+							.button{
+							
+							background-color: blue;
+							border: none;
+							color: white;
+							text-decoration: none;
+							display: inline-block;
+							font-size:16px;
+							margin: 4x 2px;
+							cursor:pointer;
+							
+							}
+                        
+						  .button2{
+						    
+							background-color:blue;
+						  
+						  }
+						 
+						  a:visited{
+						          color:yellow;
+						  }
+						
+						input:focus{
+						
+						background-color:orange;
+						
+						}
+						
+				
+				 
