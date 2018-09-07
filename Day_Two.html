@@ -1,0 +1,93 @@
+<html>
+
+        <body> 
+		                <link type="text/css" rel="stylesheet" href="Day_two.css"/>
+ 				         <a href="http://www.cestercollege.com" target="_blank">Seneca</a>
+						 
+						 <hr>
+						
+						<input id="num1" type="text/"><br>
+						<input id ="num2" type="text/"><br>
+						
+				        <button class="button" onclick="multiply()">calculate</button>
+						<button class="button button2 onmouseover="changeImage()" onmouseleave="swap()">changeImage</button>
+	                     <p id="result">The result shown..</p>
+						 <hr>
+						 <div class="outer">
+						 <div class="inner">
+						     
+							 This is an example of using CSS in HTML.it saves a lot of time and it benefits from software re - usability.
+							 This is an example of using CSS in HTML.it saves a lot of time and it benefits from software re - usability.
+							 This is an example of using CSS in HTML.it saves a lot of time and it benefits from software re - usability.
+							 
+						 </div>
+						 
+						 <div class="inner">
+						     
+							 This is an example of using CSS in HTML.it saves a lot of time and it benefits from software re - usability.
+							 This is an example of using CSS in HTML.it saves a lot of time and it benefits from software re - usability.
+							 This is an example of using CSS in HTML.it saves a lot of time and it benefits from software re - usability.
+							 
+						 </div>
+						 </div>
+						 <hr>
+		                <p id="x2">A sample paragraph</p>
+		                <hr>
+						<p class="c1">
+		                 This is first  paragraph
+		                </p>
+						<hr>
+
+                         <p class="c2">
+		                 This is second paragraph
+                        </p>
+				        <hr>
+                         <p class="c3">
+		                 This is third paragraph
+		                 </p>
+				        <hr>
+				         <p class="c2">
+		                 This is arbitrary paragraph
+		                 </p>
+				        <hr>
+				        <p class="c1">
+		                This is another custom paragraph
+		                </p>
+				        <hr>
+		                 <img class="i1" id="img1" src="apple.png"/>
+						 <hr>
+						 <img class="i2" src="Microsoft.jpg"/>
+			 
+	    </body>
+		<script>
+		
+		var x = 2;
+		console.log("Hello world.X=" +x);
+		
+		for(var i=0;i< 100;i++){
+		console.log(i);
+		}
+		
+		function multiply()
+		{
+		   var n1 = document.getElementById("num1").value;
+		   var n2 = document.getElementById("num2").value;
+		   var result= n1* n2;
+		   var par = document.getElementById("result");
+		   par.innerHTML="The result is:" +result;
+		}
+		function changeImage()
+		{
+		
+		var i = document.getElementById("img1");
+		console.log(i);
+		i.src ="apple.png"
+		}
+		function swap()
+		{
+		var i = document.getElementById("img1");
+		console.log(i);
+		i.src ="Microsoft.jpg"
+		}
+		</script>
+</html>
